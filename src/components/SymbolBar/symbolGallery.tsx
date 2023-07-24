@@ -7,7 +7,7 @@ export type SymbolGalleryProps = {
 const SymbolGallery: React.FC<SymbolGalleryProps> = ({ images }) => {
   return (
     <div>
-      <div className="flex justify-between">
+      <div className="container flex justify-between">
         {images.map((imageUrl, index) => (
           <img
             key={index}

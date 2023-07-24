@@ -44,20 +44,6 @@ function MainPage() {
         </video>
       </div>
       <div className="z-0 bg-scroll absolute inset-0 bg-opacity-50">
-        <motion.div
-          className="FullScreen__logo fixed inset-0 flex justify-center items-center"
-          style={{ translateY, scale }}
-        >
-          <img
-            data-min="160"
-            data-max="1000"
-            src="/pics/_20220617nib_milkyway.jpg"
-            alt="space"
-            className="w-screen h-screen object-cover transition-transform duration-500 ease-in-out"
-          />
-        </motion.div>
-        <Breaks />
-
         <div className="flex-wrap">
           <div className="flex justify-center">
             <Title />
