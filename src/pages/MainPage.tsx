@@ -1,7 +1,3 @@
-import { useEffect, useState } from 'react'
-import { motion, useScroll, useTransform } from 'framer-motion'
-import Breaks from '../components/Breaks/Breaks'
-
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import Title from '../components/Title/Title'
@@ -10,24 +6,6 @@ import SymbolBar from '../components/SymbolBar/SymbolBar'
 import ProjectBoxContent from '../components/ProjectBox/ProjectBoxContent'
 import ProfilePic from '../components/ProfilePic/ProfilePic'
 function MainPage() {
-  const [, setScrollPositiion] = useState(0)
-  const { scrollYProgress } = useScroll()
-  const translateY = useTransform(scrollYProgress, [0, 1], ['0%', '-50%'])
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 0])
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentPosition = window.scrollY
-      setScrollPositiion(currentPosition)
-    }
-
-    window.addEventListener('scroll', handleScroll)
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
-  }, [])
-
   return (
     <div className="min-h-screen">
       <div className="z-20 flex justify-center items-center h-screen overflow-hidden">
