@@ -1,10 +1,10 @@
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import Title from '../components/Title/Title'
-import Paragraph_1 from '../components/Paragraphs/Paragraph_1'
+
 import SymbolBar from '../components/SymbolBar/SymbolBar'
 import ProjectBoxContent from '../components/ProjectBox/ProjectBoxContent'
-import ProfilePic from '../components/ProfilePic/ProfilePic'
+
 function MainPage() {
   return (
     <div className="min-h-screen">
@@ -35,11 +35,11 @@ function MainPage() {
           </div>
 
           <br />
-          <div className=" mx-10 my-10">
+          <div className="flex mx-10 my-10">
             <ProjectBoxContent />
           </div>
           <br />
-          <div className="mx-10 my-10">
+          <div className="flex mx-10 my-10">
             <Footer />
           </div>
         </div>
