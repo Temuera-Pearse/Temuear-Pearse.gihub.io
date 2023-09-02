@@ -33,14 +33,6 @@ function MainPage() {
           <div className="flex justify-center mx-10 my-10">
             <Header />
           </div>
-          <div className="flex flex-wrap mx-10 my-10">
-            <div className="m-5 flex-1">
-              <ProfilePic />
-            </div>
-            <div className="m-5 flex-1">
-              <Paragraph_1 />
-            </div>
-          </div>
 
           <br />
           <div className=" mx-10 my-10">
