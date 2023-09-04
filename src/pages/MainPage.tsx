@@ -7,7 +7,7 @@ import ProjectBoxContent from '../components/ProjectBox/ProjectBoxContent'
 
 function MainPage() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen grid grid-rows-2">
       <div className="z-20 flex justify-center items-center h-screen overflow-hidden">
         <video
           className="fixed inset-0 w-full h-full object-cover"
@@ -23,14 +23,14 @@ function MainPage() {
       </div>
       <div className="z-0 bg-scroll absolute inset-0 bg-opacity-50">
         <div className="flex-wrap">
-          <div className="flex justify-center">
+          <div className="w-full flex justify-center">
             <Title />
           </div>
           <div className="flex justify-center">
             <SymbolBar />
           </div>
 
-          <div className="flex justify-center mx-10 my-10">
+          <div className="w-full flex justify-center mx-10 my-10">
             <Header />
           </div>
 

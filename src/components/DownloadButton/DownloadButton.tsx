@@ -7,8 +7,8 @@ function DownloadButton() {
   }
 
   return (
-    <div className="flex justify-center">
-      <div className="flex items-center">
+    <div className="w-full flex justify-center">
+      <div className="w-full flex items-center">
         <button
           className="relative inline-flex items-center justify-center px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white text-3xl font-semibold rounded-lg transition-colors duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
           onClick={handleDownload}

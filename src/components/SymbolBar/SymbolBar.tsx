@@ -14,7 +14,7 @@ const SymbolBar: React.FC = () => {
   ]
 
   return (
-    <div>
+    <div className="w-2/3 m-auto">
       <SymbolGallery images={imageUrls} />
     </div>
   )
